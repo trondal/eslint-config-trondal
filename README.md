@@ -4,15 +4,22 @@
     npm install trondal-eslint-config --save-dev
 
 
-##
+## Explanation
 
-- ☑️ eslint
-- ☑️ eslint-plugin-jsx-a11y
-- eslint-plugin-react
-- eslint-plugin-react-hooks
-- eslint-config-airbnb
+| Rule      | Description |
+| ----------- | ----------- |
+|eslint-config-airbnb|Standard main config|
+|eslint-plugin-import, eslint-plugin-jsx-a11y, eslint-plugin-react, eslint-plugin-react-hooks|Dependencies of eslint-config-airbnb|
+|eslint-config-prettier| Remove rules that conflicts with prettier|
+|eslint-plugin-jest|Jest(testing) rules|
+
+
+
+
+
+
+
+
 - eslint-config-airbnb-typescript
-- eslint-config-prettier
 - eslint-plugin-deprecation
-- eslint-plugin-import
-- eslint-plugin-jest
+
