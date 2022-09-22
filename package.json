@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": "^8.23.1"
+    "eslint": "^8.23.1",
+    "prettier": "2.x"
   },
   "dependencies": {
     "eslint-config-airbnb": "^19.0.4",
