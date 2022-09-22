@@ -1,5 +1,5 @@
 {
-  "name": "trondal-eslint-config",
+  "name": "eslint-config-trondal",
   "version": "1.0.0",
   "description": "Custom eslint config",
   "main": "index.js",
