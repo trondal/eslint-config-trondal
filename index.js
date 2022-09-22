@@ -1,8 +1,11 @@
 module.exports = {
     // eslint-configs
-    extends: ['airbnb'],
+    extends: ['airbnb', 'airbnb/hooks'],
     // eslint-plugins
     plugins: [],
     // enabling/disabling/changing level of rules
-    rules: {}
+    // "rules" always wins over "extends"
+    rules: {     
+      // 'react/self-closing-comp': 1,
+    }
   };
