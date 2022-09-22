@@ -1,8 +1,8 @@
 module.exports = {
     // eslint-configs
-    extends: [],
+    extends: ['airbnb'],
     // eslint-plugins
-    plugins: ['jsx-a11y'],
+    plugins: [],
     // enabling/disabling/changing level of rules
     rules: {}
   };
