@@ -5,6 +5,15 @@
 1. npm install trondal-eslint-config --save-dev
 2. Add "eslint-config-trondal" to eslint-> extend section. (see below for example)
 
+```json
+"eslintConfig": {
+    "extends": [
+        "eslint-config-trondal"
+    ],
+    "rules": {}
+}
+```
+
 ## Explanation
 
 | Rule                                                                                         | Description                               |
