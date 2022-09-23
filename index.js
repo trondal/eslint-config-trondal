@@ -15,6 +15,8 @@ module.exports = {
   // "rules" always wins over "extends"
   rules: {
     // "react/self-closing-comp": 1,
-    // "@typescript-eslint/comma-dangle": 0,
+  },
+  env: {
+    browser: true, // allow browser global variables
   },
 };
