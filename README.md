@@ -3,7 +3,19 @@
 ## Installation
 
 1. npm install trondal-eslint-config --save-dev
-2. Add "eslint-config-trondal" to eslint-> extend section. (see below for example)
+2. Setup eslintConfig (could be .eslintrc, .eslint.json, package.json etc), example:
+
+```json
+"eslintConfig": {
+    "extends": [
+        "eslint-config-trondal"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json" // point to  *your tsconfig
+    }
+    "rules": {}
+}
+```
 
 ## Explanation
 
@@ -22,14 +34,19 @@ npm install 'eslint-config-toll'
 
 In package.json, .eslintrc.json or whatever file you use for eslint configuration, add the rules to the "rules" section. For instance if I want to allow non-closing components (`<div></div>`), I add this to package.json:
 
-    "eslintConfig": {
-        "extends": [
-            "eslint-config-trondal"
-        ],
-        "rules": {
-            "react/self-closing-comp": 0
-        }
-    },
+```json
+"eslintConfig": {
+    "extends": [
+        "eslint-config-trondal"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+    "rules": {
+        "react/self-closing-comp": 0 // override default 1
+    }
+},
+```
 
 ## Override global rules.
 
