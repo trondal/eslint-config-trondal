@@ -13,6 +13,9 @@ module.exports = {
   // Enabling/disabling/changing level of rules
   // "rules" always wins over "extends"
   rules: {
-    // 'react/self-closing-comp': 1,
+    // 'react/self-closing-comp': 1
+  },
+  env: {
+    browser: true, // allow browser global variables
   },
 };
