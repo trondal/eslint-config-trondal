@@ -10,7 +10,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ["deprecation"],
+  plugins: [],
   // Enabling/disabling/changing level of rules
   // "rules" always wins over "extends"
   rules: {
