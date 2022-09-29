@@ -4,7 +4,7 @@ module.exports = {
     "airbnb/hooks",
     "eslint:recommended",
     "plugin:react/recommended",
-    "prettier" // remove conflicting rules with pretter, prettier command must be run i parent project.
+    "prettier" // disabled conflicting rules with prettier, Prettier must be instslled in host project
   ],
   overrides: [
     {
@@ -16,6 +16,7 @@ module.exports = {
       },
     },
   ],
+  plugins: [],
   // Enabling/disabling/changing level of rules
   // "rules" always wins over "extends"
   rules: {
