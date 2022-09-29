@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ["airbnb", "airbnb/hooks", "prettier"],
+  extends: [
+    "airbnb",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier" // remove conflicting rules with pretter, prettier command must be run i parent project.
+  ],
   overrides: [
     {
       files: ["**/*.test.js", "**/*.test.jsx"],
