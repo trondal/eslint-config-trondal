@@ -9,6 +9,14 @@ module.exports = {
         "jest/globals": true,
       },
     },
+    {
+      files: ["**/*.tsx", "**/*.ts"],
+      plugins: ["react", "@typescript-eslint"],
+      extends: ["plugin:jest/recommended", "plugin:jest/style"],
+      env: {
+        "jest/globals": true,
+      },
+    }
   ],
   plugins: [],
   // Enabling/disabling/changing level of rules
