@@ -4,7 +4,7 @@ module.exports = {
     "airbnb/hooks",
     "eslint:recommended",
     "plugin:react/recommended",
-    "prettier" // disabled conflicting rules with prettier, Prettier must be instslled in host project
+    "prettier" // disabled conflicting rules with prettier, Prettier must be installed in host project
   ],
   overrides: [
     {
@@ -19,9 +19,7 @@ module.exports = {
   plugins: [],
   // Enabling/disabling/changing level of rules
   // "rules" always wins over "extends"
-  rules: {
-    // 'react/self-closing-comp': 1
-  },
+  rules: {},
   env: {
     browser: true, // allow browser global variables
   },
